@@ -7,6 +7,7 @@ export default function Navbar(props) {
   return (
 
     <>
+    <h1>h1g</h1>
       <nav className={`navbar`} id='navbar-outer' style={{ borderBottom: props.theme === 'dark' ? "1px solid #1E7CC0" : "1px solid #F24B74" }} >
         <div className="container-fluid" id='navbar-container-section'>
           <div className='nav-phone-number'>
